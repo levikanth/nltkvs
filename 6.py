@@ -2,11 +2,12 @@
 # open pdf ,read,extract_text, number of pages..etc
 
 import PyPDF2
-file = open('LKR.pdf', 'rb')
+file = open('new_file1.pdf', 'rb')
 
 pdfReader = PyPDF2.PdfReader(file)
 
 # count number of pages
+
 totalPages = len(pdfReader.pages)
 
 

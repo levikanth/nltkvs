@@ -1,8 +1,8 @@
 
 #Sentiment Analysis , Lemmatization and Stemming in NLTK
 import nltk
-# nltk.download('wordnet')
-# nltk.download('vader_lexicon')
+# nltk.download()
+nltk.download('vader_lexicon')
 
 demowords = ['playing','doing','cried', 'smile','ran','have','sang','tied','jumped','code']
 
@@ -12,7 +12,7 @@ demowords = ['playing','doing','cried', 'smile','ran','have','sang','tied','jump
 from nltk.stem import PorterStemmer, WordNetLemmatizer
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 stemmer = PorterStemmer()
-Lemmatizer= WordNetLemmatizer()
+Lemmatizer = WordNetLemmatizer()
 
 
 
@@ -25,5 +25,5 @@ for word in demowords:
 #              sentiment analyzer(get the emotion score)
 
 sia=SentimentIntensityAnalyzer()
-polarityscore=sia.polarity_scores("NLTK is a great library for natural language processing!")
+polarityscore=sia.polarity_scores("NLTK is a worst library for natural language processing!")
 print(polarityscore)

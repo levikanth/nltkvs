@@ -2,7 +2,7 @@
 
 import PyPDF2
 # open existing file
-file1 = open('LKR.pdf', 'rb')
+file1 = open('new_file1.pdf', 'rb')
 
 # read file (binary format)
 pdfReader = PyPDF2.PdfReader(file1)
@@ -20,7 +20,7 @@ pdfwriter = PyPDF2.PdfWriter()
 
 
 # create new pdf file(use wb instead of rb)
-pdf_output = open('new_file7.csv', 'wb')
+pdf_output = open('deepika.pdf', 'wb')
 # now add page to new file from pdfwriter(use write)
 # pdfwriter.write(pdf_output)
 output = []

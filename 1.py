@@ -1,6 +1,6 @@
 import nltk
 import matplotlib.pyplot as plt
-# nltk.download()
+nltk.download()
 text="""my  name is levi kanth. i live in hyderabad. i finished my graduation."""
 
 #                         #class -1
@@ -25,3 +25,7 @@ print(sent_tokenize(text))
 # print(fd.most_common(15))
 # fd.plot(30, cumulative=False)
 # plt.show()
+
+
+
+

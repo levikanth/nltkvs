@@ -13,7 +13,7 @@ text = "One  day a wolf was eating the flesh of an animal it had killed. A littl
 
 #                      get stopwords and set it
 Stop_words = set(stopwords.words('english'))
-# print(Stop_words)
+print(Stop_words)
 
 
 #                    tokinization of text
