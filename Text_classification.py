@@ -9,7 +9,7 @@ documents = [
     "I love programming programming",
     "Programming is fun",
     "NLP is interesting"
-]
+] 
 
 # Create a CountVectorizer instance
 vectorizer = CountVectorizer()
